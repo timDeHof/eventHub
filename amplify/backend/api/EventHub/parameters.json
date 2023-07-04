@@ -1,0 +1,6 @@
+{
+  "AppSyncApiName": "EventHub",
+  "DynamoDBBillingMode": "PAY_PER_REQUEST",
+  "DynamoDBEnableServerSideEncryption": false,
+  "AuthModeLastUpdated": "2023-07-04T19:11:52.824Z"
+}

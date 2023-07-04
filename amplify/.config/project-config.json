@@ -1,0 +1,15 @@
+{
+  "providers": ["awscloudformation"],
+  "projectName": "EventHub",
+  "version": "3.1",
+  "frontend": "javascript",
+  "javascript": {
+    "framework": "react",
+    "config": {
+      "SourceDir": "./pages",
+      "DistributionDir": "build",
+      "BuildCommand": "npm run build",
+      "StartCommand": "npm run start"
+    }
+  }
+}

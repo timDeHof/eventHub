@@ -1,0 +1,20 @@
+{
+  "staging": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-eventhub-staging-172356-authRole",
+      "UnauthRoleArn": "arn:aws:iam::423045963200:role/amplify-eventhub-staging-172356-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::423045963200:role/amplify-eventhub-staging-172356-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-eventhub-staging-172356-deployment",
+      "UnauthRoleName": "amplify-eventhub-staging-172356-unauthRole",
+      "StackName": "amplify-eventhub-staging-172356",
+      "StackId": "arn:aws:cloudformation:us-east-1:423045963200:stack/amplify-eventhub-staging-172356/8eb360f0-1a8f-11ee-8e8a-0e3254da6aeb",
+      "AmplifyAppId": "d32t1j2zv1r9l6"
+    },
+    "categories": {
+      "auth": {
+        "eventhubbf822ead": {}
+      }
+    }
+  }
+}

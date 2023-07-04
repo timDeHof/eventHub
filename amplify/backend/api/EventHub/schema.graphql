@@ -1,0 +1,18 @@
+type Event @model @auth(rules: [{ allow: public }]) {
+  id: ID!
+  name: String!
+  description: String!
+  data: AWSDateTime!
+  location: String!
+  attendees: [User] @hasMany(indexName: "byEvent", fields: ["id"])
+  users: [User] @manyToMany(relationName: "UserEvent")
+}
+
+type User @model @auth(rules: [{ allow: public }]) {
+  id: ID!
+  username: String!
+  email: String!
+  password: String!
+  eventID: ID! @index(name: "byEvent")
+  events: [Event] @manyToMany(relationName: "UserEvent")
+}
